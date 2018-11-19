@@ -1,0 +1,6 @@
+$publicSize: 7.5;
+$color: #e71414;
+
+@function p($px) {
+  @return $px / $publicSize * 1vw;
+}
